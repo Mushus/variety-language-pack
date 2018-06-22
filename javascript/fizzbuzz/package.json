@@ -5,6 +5,9 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "test": "node test.js"
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
   }
 }

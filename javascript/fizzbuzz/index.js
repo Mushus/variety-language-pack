@@ -1,4 +1,5 @@
 const Fizzbuzz = require('./fizzbuzz.js');
+
 /**
  * 配列を標準出力する
  * @param {any[]} ary - 出力する配列

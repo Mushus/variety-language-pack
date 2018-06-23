@@ -3,8 +3,8 @@
  * @param {number} n - 配列の長さ
  * @return {string[]} - 長さ n の fizzbuzz の結果が格納された配列
  */
-const fizzbuzz = n => Array.apply(null, Array(n)).
+const fizzbuzz = n => Array(n).fill(null).
   map((_, i) => i + 1).
-  map(i => (i % 3 ? '' : 'Fizz') + (i % 5 ? '' : 'Buzz') || ('' + i));
+  map(i => (i % 3 ? '' : 'Fizz') + (i % 5 ? '' : 'Buzz') || `${i}`);
 
 module.exports.fizzbuzz = fizzbuzz

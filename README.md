@@ -1,5 +1,9 @@
 # variety-language-pack
 
+[![Build Status](https://travis-ci.org/Mushus/variety-language-pack.svg?branch=master)](https://travis-ci.org/Mushus/variety-language-pack)
+[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+[![Lang JavaScript](https://img.shields.io/badge/Lang-JavaScript-ff69b4.svg?style=flat)](javascript)
+
 I'm verry Happy!!
 
 ## What is variety-language-pack?

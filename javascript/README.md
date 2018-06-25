@@ -5,6 +5,8 @@
 ### run
 
 ```
+yarn run
+# or
 node index.js
 ```
 

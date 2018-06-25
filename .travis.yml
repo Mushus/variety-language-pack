@@ -1,0 +1,25 @@
+# ここを参考にした
+# https://stackoverflow.com/questions/27644586/how-to-set-up-travis-ci-with-multiple-languages
+matrix:
+  include:
+  - language: node_js
+    node_js: node
+    script:
+    - cd javascript
+    - cd fizzbuzz
+    - yarn install
+    - yarn test
+    - cd -
+    - cd heapsort
+    - yarn install
+    - yarn test
+    - cd -
+    - cd meargesort
+    - yarn install
+    - yarn test
+    cache:
+      yarn: true
+      directories:
+      - "javascript/fizzbuzz/node_modules"
+      - "javascript/heapsort/node_modules"
+      - "javascript/meargesort/node_modules"

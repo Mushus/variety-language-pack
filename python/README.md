@@ -5,6 +5,14 @@
   * ぱいそん
   * https://www.python.org/
 
+* インデント
+  * 4スペース
+* コーディング規約
+  * [PEP8](http://pep8-ja.readthedocs.io/ja/latest/)
+* `__init__.py`
+  1. pythonのディレクトリを表すファイル
+  2. 初期化処理を書くファイル
+
 ## 環境構築
 
 手元の環境 ( Windows Subsystem for Linux ) の Ubuntu では既に入れていた( Python 3.5 )。
@@ -59,17 +67,36 @@ pip -V
   * pythonのパッケージマネージャー
   * https://pypi.org/
 
+パッケージマネージャーとか依存解決ツールとかもあった。
+
+* `pipenv`
+  * Pipenv
+  * https://pipenv-ja.readthedocs.io/
+
+`pipenv` をインストールした。
+
+```bash
+pip install --user pipenv
+```
+
 ## 依存解決
 
+依存関係を記述したファイルを作った。
+
+```bash
+pipenv install
+```
 
 ## 実行
 
 ```bash
-python helloworld.py
+pipenv run python helloworld.py
 ```
 
 ## テスト
 
 標準ライブラリがサポートしてる。
+
 ```bash
+pipenv run python -m unittest discover tests
 ```

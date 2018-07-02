@@ -24,7 +24,7 @@ matrix:
       - "javascript/heapsort/node_modules"
       - "javascript/meargesort/node_modules"
   - language: python
-    python: "3.7"
+    python: "3.7-dev" # 3.7はまだないらしい
     script:
     - pip install --user pipenv
     - cd python

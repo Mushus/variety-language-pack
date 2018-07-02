@@ -76,7 +76,7 @@ pip -V
 `pipenv` をインストールした。
 
 ```bash
-pip install --user pipenv
+pip install pipenv
 ```
 
 ## 依存解決

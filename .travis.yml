@@ -26,7 +26,7 @@ matrix:
   - language: python
     python: "3.7-dev" # 3.7はまだないらしい
     script:
-    - pip install --user pipenv
+    - pip install pipenv
     - cd python
     - cd fizzbuzz
     - pipenv install

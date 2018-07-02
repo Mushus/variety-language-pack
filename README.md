@@ -2,7 +2,8 @@
 
 [![Build Status](https://travis-ci.org/Mushus/variety-language-pack.svg?branch=master)](https://travis-ci.org/Mushus/variety-language-pack)
 [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
-[![Lang JavaScript](https://img.shields.io/badge/Lang-JavaScript-ff69b4.svg?style=flat)](javascript)
+[![Lang JavaScript](https://img.shields.io/badge/Lang-JavaScript-43853d.svg?style=flat)](javascript)
+[![Lang JavaScript](https://img.shields.io/badge/Lang-Python-75a8d3.svg?style=flat)](python)
 
 I'm verry Happy!!
 
@@ -27,4 +28,7 @@ This is a repository for me to learn a lot of programing languages.
 
 ### j
 
-* JavaScript
+* [JavaScript](/javascript)
+
+### p
+* [Python](/python)

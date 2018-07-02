@@ -23,3 +23,11 @@ matrix:
       - "javascript/fizzbuzz/node_modules"
       - "javascript/heapsort/node_modules"
       - "javascript/meargesort/node_modules"
+  - language: python
+    python: "3.7"
+    script:
+    - pip install --user pipenv
+    - cd python
+    - cd fizzbuzz
+    - pipenv install
+    - pipenv run python -m unittest discover tests
